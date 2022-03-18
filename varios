@@ -1,0 +1,103 @@
+./ncmx/online/es/web/pub/	ncmxfl10407.xml - NCMXVE10407_es.jsp (Obsoleto)  > Nuevo: ncmxfl00802.xml - NCMXVE00802_es.jsp
+./ncmx/online/es/web/pub/	ncmxfl70109.xml - NCMXVE70109_es.jsp (AÃºn se ocupa) > Nuevo: ncmxfl70114.xml -> NCMXVE71141_es.jsp > ncmxfl70109
+./ncmx/online/es/web/pub/	ncmxfl00802.xml
+
+NCMXFL00002  CONTROLADOR ALTA PM  
+NCMXFL00069 ALTA CLIENTE DATOS BASICOS PM
+S
+
+NCMXFL00003   CONTROLADOR ALTA   PF
+NCMXFL00030 ALTA CLIENTE DATOS BASICOS PF
+pe05
+pe7f
+pej4
+pee1
+
+
+
+
+String fecAct="";
+		try{
+			Date fechaHoyCache=new Date();
+			SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+			fecAct = sdf.format(fechaHoyCache);
+		} catch(Exception ex) { fecAct=""; } 
+
+¿Resides fuera de México? si es extranjero, retoma el flujo tradicional....
+
+
+CAFD811129MDFHRN07
+DENISE PAULINA CHAVEZ FERNANDEZ
+
+D0242897--DAYANA JARAMILLO MENDEZ
+
+Menor
+PAPI040909MASLRSA0 Isis Francina Palafox Pérez	
+MUDA040624HDFXZLA1 ALEKS ADRIAN MUÑIZ DIAZ	
+
+con Ñ
+PEOP960916HDFXLD07 PEDRO ANTONIO PEÑA OLARTE
+D0206141 con dieresis
+
+
+Antisonantes
+NXCA890819HMCVRL01 Alan David Navarijo Carrasco
+
+ya existe en identidad 
+OMAR GUMERCINDO	MUNIBES DE LA ROSA
+MURO950215HMSNSM05
+
+Mayor de edad
+BAVE361230MMNZLG06 EUGENIA BAEZ VILLEGAS
+
+/********* CAMARGO ***********/
+
+XMX0956
+
+
+1. INE - Datos Generales y Domicilio + Folio INE + 2 Folios + 2 indicadores
+2. INE - Datos Generales + Comprobante CFE + 2 FOlios + 2 indicadores 
+3. INE - Daotos Generales + 1 Folio + 1 indicador 
+
+"payload":{
+			"encodeData": "",
+			"listFields": "tipoOperacion|numeroCliente|cveDocumento|nomenclaturaDoc|canal|doctoTemporal|tipoApp|descripcionDoc|primeraPag|ultimaPag|extensionDoc|tipoDoc|famDocumento|",
+			"listValues": "docOcrTemporal|0|001|"+hdINE_FOL.value+"|EECC|1|OC|CREDENCIAL ELECTOR|true|true|pdf|O|I|"
+		},
+
+
+
+
+CON PROTECIÓN 	D0243550 	00744478000473289478
+SIN PROTECCIÓN 	D0233629
+
+SIN				D0240106	00740010000473231801 4152313311627413 
+MORAL			D0242254	00740010000114680413
+				D0242259
+				D0210573
+
+TDC 			D0229444
+
+aamxfl40090
+cpmxve03010
+
+#listDocumentationDossiers
+SMCMX1810263=accounts/v0/documentation-dossiers?indicators.id={indicators.id}&accountNumber={accountNumber},GET,true,false
+
+#updateDocumentationDossier
+SMCMX1810264=accounts/v0/documentation-dossiers/{documentation-dossier-id},PUT,true,false
+
+
+#SMCMX1500931  proxyValueCipher
+SMCMX1500931=proxyValueCipher/V01/security,POST,true,false
+
+
+#SMMX20201718 getIndicator BG35
+SMMX20201718=accounts/v0/accounts/{account-id}/indicators/{indicator-id},GET,true,false
+
+#SMMX20201720 modifyIndicator BG58
+SMMX20201720=accounts/v0/accounts/{account-id}/indicators/{indicator-id},PUT,true,false
+
+PIMA851206MDFMDL07
+
+
